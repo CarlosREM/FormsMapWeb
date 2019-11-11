@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace FormsMapWeb
+namespace FormsMapWeb.ADT
 {
-    public class Question
+    public class SlateComponent
     {
         public List<String> hints { get; set; }
         public String question { get; set; }
@@ -14,8 +14,8 @@ namespace FormsMapWeb
         public String toString()
         {
             String stringQuestion = "";
-            stringQuestion += "Question : " + question + "\n";
-            stringQuestion += "Question type : " + type + "\n";
+            stringQuestion += "Q: " + question + "\n";
+            stringQuestion += "Type: " + type + "\n";
             foreach (String hint in hints)
             {
                 stringQuestion += hint;

@@ -7,99 +7,117 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FormsMapWeb {
+namespace FormsMapWeb.CustomControls {
     
     
-    public partial class MainWindow {
+    public partial class FormQuestionView {
         
         /// <summary>
-        /// form1 control.
+        /// MainPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Panel MainPanel;
         
         /// <summary>
-        /// pnHeader control.
+        /// QuestionPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnHeader;
+        protected global::System.Web.UI.WebControls.Panel QuestionPanel;
         
         /// <summary>
-        /// imgLogo control.
+        /// LblQuestion control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgLogo;
+        protected global::System.Web.UI.WebControls.Label LblQuestion;
         
         /// <summary>
-        /// lblSeparator1 control.
+        /// LblQuestionField control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSeparator1;
+        protected global::System.Web.UI.WebControls.Label LblQuestionField;
         
         /// <summary>
-        /// pnSidebar control.
+        /// AnswerPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnSidebar;
+        protected global::System.Web.UI.WebControls.Panel AnswerPanel;
         
         /// <summary>
-        /// btnFormularios control.
+        /// LblAnswer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnFormularios;
+        protected global::System.Web.UI.WebControls.Label LblAnswer;
         
         /// <summary>
-        /// btnPlantillas control.
+        /// LblAnswerField control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPlantillas;
+        protected global::System.Web.UI.WebControls.Label LblAnswerField;
         
         /// <summary>
-        /// btnLugares control.
+        /// TypePanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLugares;
+        protected global::System.Web.UI.WebControls.Panel TypePanel;
         
         /// <summary>
-        /// btnRefresh control.
+        /// LblType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnRefresh;
+        protected global::System.Web.UI.WebControls.Label LblType;
         
         /// <summary>
-        /// ContentPanel control.
+        /// LblTypeField control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel ContentPanel;
+        protected global::System.Web.UI.WebControls.Label LblTypeField;
+        
+        /// <summary>
+        /// LblHints control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblHints;
+        
+        /// <summary>
+        /// HintsPanel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel HintsPanel;
     }
 }

@@ -3,20 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace FormsMapWeb
+namespace FormsMapWeb.ADT
 {
-    public class Plantilla
+    public class Slate
     {
         public String fieldID { get; set; }
         public String name { get; set; }
-        public List<Question> questions { get; set; }
-        
-        public String toString()
+        public List<SlateComponent> questions { get; set; }
+
+        override
+        public String ToString()
         {
-            String stringPlantilla = "";
+            String stringPlantilla = "\n-- SLATE --\n";
             stringPlantilla += "FieldID: " + fieldID + "\n";
             stringPlantilla += "Name: " + name + "\n";
-            foreach (Question question in questions)
+            foreach (SlateComponent question in questions)
             {
                 stringPlantilla += question.toString();
             }
