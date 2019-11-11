@@ -103,6 +103,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
+=======
+    <Compile Include="ADT\MailManager.cs" />
+    <Compile Include="ADT\Form.cs" />
+>>>>>>> Stashed changes
     <Compile Include="ADT\Place.cs" />
     <Compile Include="Database\DBManager.cs" />
     <Compile Include="MainWindow.aspx.cs">
