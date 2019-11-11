@@ -21,8 +21,12 @@
     <asp:Button ID="btnEliminar" runat="server" BorderStyle="None" Font-Bold="False" Font-Names="Lato" Text="Eliminar" CssClass="button" />
     <asp:Panel ID="InfoPanel" runat="server" CssClass="infopanel">
         <asp:Label ID="lblSlate" runat="server" Font-Bold="True" Font-Names="Lato" Text="Nombre Plantilla:"></asp:Label>
+        &nbsp;
+        <asp:Label ID="lblSlateField" runat="server" Font-Bold="False" Font-Names="Lato" Text="plantilla"></asp:Label>
         <br />
         <asp:Label ID="lblPlace" runat="server" Font-Bold="True" Font-Names="Lato" Text="Nombre Lugar:"></asp:Label>
+        &nbsp;
+        <asp:Label ID="lblPlaceField" runat="server" Font-Bold="False" Font-Names="Lato" Text="lugar"></asp:Label>
         <br />
         <asp:Label ID="lblQuestions" runat="server" Font-Bold="True" Font-Names="Lato" Text="Preguntas:"></asp:Label>
         <asp:Panel ID="PanelPreguntas" runat="server" CssClass="button" Width="680px">

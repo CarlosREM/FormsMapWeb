@@ -18,8 +18,8 @@ namespace FormsMapWeb.CustomControls
         {
             form = newForm;
             lblKey.Text = form.key;
-            lblSlate.Text = "Nombre Plantilla: " + form.slateName;
-            lblPlace.Text = "Nombre Lugar: " + form.placeName;
+            lblSlateField.Text = form.slateName;
+            lblPlaceField.Text = form.placeName;
 
             for (int i = 0; i < form.questions.Count; i++)
             {

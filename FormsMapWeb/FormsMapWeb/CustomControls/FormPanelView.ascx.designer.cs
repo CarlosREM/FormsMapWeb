@@ -76,6 +76,15 @@ namespace FormsMapWeb.CustomControls {
         protected global::System.Web.UI.WebControls.Label lblSlate;
         
         /// <summary>
+        /// lblSlateField control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSlateField;
+        
+        /// <summary>
         /// lblPlace control.
         /// </summary>
         /// <remarks>
@@ -83,6 +92,15 @@ namespace FormsMapWeb.CustomControls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblPlace;
+        
+        /// <summary>
+        /// lblPlaceField control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblPlaceField;
         
         /// <summary>
         /// lblQuestions control.

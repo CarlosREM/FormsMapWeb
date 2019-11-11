@@ -74,12 +74,11 @@ namespace FormsMapWeb
 
             foreach (var obj in bdArray)
             {
-                Slate s = new Slate();
-                s.name = obj.Object.name;
-                s.fieldID = obj.Object.fieldID;
-                s.questions = obj.Object.questions;
+                SlatePanelView panel = LoadControl("~/CustomControls/SlatePanelView.ascx") as SlatePanelView;
 
-                Debug.WriteLine(s.ToString());
+                panel.LoadSlate(obj.Object);
+
+                ContentPanel.Controls.Add(panel);
             }
         }
 

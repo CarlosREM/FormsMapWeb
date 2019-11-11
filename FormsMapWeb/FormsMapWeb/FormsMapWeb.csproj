@@ -169,6 +169,8 @@
     <Content Include="CustomControls\FormPanelView.ascx" />
     <Content Include="CustomControls\FormQuestionView.ascx" />
     <Content Include="CustomControls\PlacePanelView.ascx" />
+    <Content Include="CustomControls\SlateCompView.ascx" />
+    <Content Include="CustomControls\SlatePanelView.ascx" />
     <Content Include="FormsMapWeb_logo.png" />
     <Content Include="MainWindow.aspx" />
     <Content Include="Web.config" />
@@ -198,6 +200,20 @@
     </Compile>
     <Compile Include="CustomControls\PlacePanelView.ascx.designer.cs">
       <DependentUpon>PlacePanelView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\SlateCompView.ascx.cs">
+      <DependentUpon>SlateCompView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomControls\SlateCompView.ascx.designer.cs">
+      <DependentUpon>SlateCompView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\SlatePanelView.ascx.cs">
+      <DependentUpon>SlatePanelView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomControls\SlatePanelView.ascx.designer.cs">
+      <DependentUpon>SlatePanelView.ascx</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.aspx.cs">
       <DependentUpon>MainWindow.aspx</DependentUpon>
